@@ -1,0 +1,12 @@
+torch
+torchaudio
+numpy
+librosa
+pandas
+matplotlib
+scipy
+scikit-learn
+speechbrain
+tqdm
+soundfile
+hdf5storage 
