@@ -9,7 +9,6 @@ AudioDomainAdaptation_CycleGANs/
 │
 ├── README.md
 ├── requirements.txt
-├── environment.yml                # (Optional: for Conda environments)
 │
 ├── data/                          # Raw and processed audio data (see data/README.md)
 │
@@ -17,7 +16,7 @@ AudioDomainAdaptation_CycleGANs/
 │   ├── models/
 │   │   └── cyclegan.py            # CycleGAN model definitions (Generators, Discriminators)
 │   │                            # Note: The 1D-Triplet CNN model used for evaluation (eval_triplet_cnn.py)
-│   │                            # is expected to be externally provided or its checkpoint loaded.
+│   │                            # is externally provided or its checkpoint loaded.
 │   │
 │   ├── datasets/
 │   │   └── audio.py               # Audio dataset loading and preprocessing classes
@@ -37,12 +36,10 @@ AudioDomainAdaptation_CycleGANs/
 │       └── utils.py               # Common utility functions (e.g., ReplayBuffer, LR schedulers)
 │
 ├── scripts/
-│   ├── train.sh                   # Shell script to run CycleGAN training
-│   ├── transform.sh               # Shell script to run feature transformation
-│   └── eval.sh                    # Shell script to run evaluation (general or Triplet CNN)
-│
-└── notebooks/
-    └── demo.ipynb                 # (Optional: Jupyter notebooks for demos or advanced analysis)
+    ├── train.sh                   # Shell script to run CycleGAN training
+    ├── transform.sh               # Shell script to run feature transformation
+    └── eval.sh                    # Shell script to run evaluation (general or Triplet CNN)
+
 ```
 
 ## Workflow
@@ -69,12 +66,6 @@ It's recommended to use a virtual environment.
 Using `pip`:
 ```bash
 pip install -r requirements.txt
-```
-
-Using `conda` (if `environment.yml` is provided and maintained):
-```bash
-conda env create -f environment.yml
-conda activate your-env-name # (replace with actual env name from environment.yml)
 ```
 
 ### 3. Prepare Your Data
