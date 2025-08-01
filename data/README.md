@@ -47,4 +47,4 @@ data/
 *   **Dataset Name**: The `<dataset_name>` should correspond to the `dataset_name` variable or argument used in your training scripts (e.g., in `src/train/train_cyclegan.py`).
 *   **Feature Files**: For evaluation with models like the 1D-Triplet CNN that expect pre-extracted features (e.g., `.mat` files), organize them under the `features/` subdirectory as shown above.
 
-Adjust the paths in your scripts (e.g., `src/train/train_cyclegan.py`, `src/transform/feature_transform.py`, `src/eval/feature_eval.py`, `src/eval/eval_triplet_cnn.py`) to correctly point to these data directories. 
+Adjust the paths in your scripts (e.g., `src/train/train_cyclegan.py`, `src/transform/feature_transform.py`, `src/eval/eval_triplet_cnn.py`, `src/eval/eval_triplet_cnn.py`) to correctly point to these data directories. 
