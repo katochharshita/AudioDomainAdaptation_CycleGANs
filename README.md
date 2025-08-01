@@ -86,10 +86,11 @@ See the `LICENSE` file in the root directory for licensing information.
 
 *   **1D-Triplet CNN Model:**
     Chowdhury, S., Lee, Y., & Lee, S. (2019). "Speaker Verification with 1D-Triplet CNN Embedding for Voice Conversion." *Proc. Interspeech 2019*, 2623-2627. DOI: 10.21437/Interspeech.2019-2708.
-    [[PDF]](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2708.pdf)
+    [[IEEE Xplore]](https://ieeexplore.ieee.org/document/9746111)
 *   **SpeechBrain Toolkit:**
     Ravichander, A., Parcollet, T., Ravanelli, M., & Cornell, S. (2021). SpeechBrain: A General-Purpose Speech Toolkit. *Proc. Interspeech 2021*, 4545-4549. DOI: 10.21437/Interspeech.2021-1250.
     [[GitHub]](https://github.com/speechbrain/speechbrain)
-*   **Audio CycleGAN for Singing Voice Conversion:**
-    Nidadavolu, P. S., & Lee, Y. (2021). "Audio CycleGAN for Singing Voice Conversion." *arXiv preprint arXiv:2102.04944*.
-    [[arXiv]](https://arxiv.org/abs/2102.04944) 
+*  **Cycle-GANs for Domain Adaptation of Acoustic Features for Speaker Recognition:**  
+    Nidadavolu, P. S., Villalba, J., & Dehak, N. (2019). *Cycle-GANs for Domain Adaptation of Acoustic Features for Speaker Recognition*.  
+[[IEEE Xplore]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8683055)
+
